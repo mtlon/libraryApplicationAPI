@@ -1,0 +1,53 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="libraryApplication:war exploded">
+    <output-path>$PROJECT_DIR$/target/libraryApplication-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>libraryApplication</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="libraryApplication" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.sun.faces:jsf-api:2.1.7" />
+          <element id="library" level="project" name="Maven: com.sun.faces:jsf-impl:2.1.7" />
+          <element id="library" level="project" name="Maven: org.glassfish.web:el-impl:2.2" />
+          <element id="library" level="project" name="Maven: javax.el:el-api:2.2" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp:jsp-api:2.1" />
+          <element id="library" level="project" name="Maven: jakarta.platform:jakarta.jakartaee-web-api:9.1.0" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.24" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.3.23" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.13.4" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.13.4" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.13.4" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.3.23" />
+          <element id="library" level="project" name="Maven: org.glassfish.jaxb:jaxb-runtime:2.3.6" />
+          <element id="library" level="project" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3" />
+          <element id="library" level="project" name="Maven: org.glassfish.jaxb:txw2:2.3.6" />
+          <element id="library" level="project" name="Maven: com.sun.istack:istack-commons-runtime:3.0.12" />
+          <element id="library" level="project" name="Maven: com.sun.activation:jakarta.activation:1.2.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.7.4" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.3.23" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/libraryApplication-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="libraryApplication/web/Web" />
+    </root>
+  </artifact>
+</component>
