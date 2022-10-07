@@ -1,2 +1,2 @@
-# libraryApplicationBackEnd
-Back-end for library application
+# libraryApplicationAPI
+API for library application
