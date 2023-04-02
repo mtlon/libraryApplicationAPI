@@ -1,5 +1,6 @@
 # Library Application (API)
-This is an application for managing book lending. The application allows for basic login support through controlled access using encrypted authentication data stored in a database. Additionally, the application provides access to a list of available books with the option to search by name, author, and release date. The entire backend is based on `REST` and exchanges data in `JSON` format, communicating with the frontend.
+This is an application for managing book lending. 
+Library Application allows for basic login support through controlled access using encrypted authentication data stored in a database. Additionally, the application provides access to a list of available books with the option to search by name, author, and release date. The entire backend is based on `REST` and exchanges data in `JSON` format, communicating with the simple frontend ([Library Applicaton Front-end](https://github.com/mtlon/libraryApplicationFrontEnd/blob/master/README.md))
 
 ## Technologies
 Project is created with:
@@ -19,7 +20,6 @@ To run this application, you will need:
 - MySQL Connector - This file is located in the application folder. Path: `libraryApplication/jar`.
 
 ## Setup
-
   1. Copy the MySQL Connector file to `glassfish6/glassfish/lib directory`
   2. Open IntelliJ IDEA Ultimate and load the Maven project.
   3. Configure the Glassfish server by selecting the path to the Glassfish server folder.
